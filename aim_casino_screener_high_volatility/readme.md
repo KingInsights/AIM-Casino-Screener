@@ -74,7 +74,7 @@ Execute each cell in the notebook sequentially to collect the data, define the t
 
 The project comes with a notebook named `aim_casino_ticker_collect.ipynb` which creates `aim_ticker_list.csv`. This CSV file is included in the project, so running the notebook is optional.
 
-To perform the main analysis, run the notebook named `aim_casino_screener_low_volatility.ipynb`.
+To perform the main analysis, run the notebook named `aim_casino_screener_high_volatility.ipynb`.
 
 Running the following code snippet in the project will create aim_analysis.csv:
 
