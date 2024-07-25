@@ -76,17 +76,15 @@ The project comes with a notebook named `aim_casino_ticker_collect.ipynb` which 
 
 To perform the main analysis, run the notebook named `aim_casino_screener_low_volatility.ipynb`.
 
-Running the following code snippet in the project will create `aim_analysis.csv`:
+Running the following code snippet in the project will create aim_analysis.csv:
 
-```python
 for symbol in tqdm(df_loaded.index, desc='Fetching Stock Data', unit='symbol'):
-    # Your code here to fetch and process stock data
 
-However, `aim_analysis.csv` is already included in the project. Therefore, you can skip the data downloading step and jump directly to the "Define the threshold percentages" section to continue with the analysis.
+However, aim_analysis.csv is already included in the project. Therefore, you can skip the data downloading step and jump directly to the "Define the threshold percentages" section to continue with the analysis.
 
-## Acknowledgments
+Acknowledgments
 Thank you to everyone who supported and contributed to this project.
 
-## License
+License
 This project is licensed under the MIT License.
 
